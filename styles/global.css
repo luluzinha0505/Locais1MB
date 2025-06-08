@@ -1,2 +1,46 @@
-@import "./styles/global.css";
-@import "./styles/root.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+padding: 8.8rem 8rem;
+background:var(--background-default) ;
+}
+
+img {
+    width: 100%;
+}
+strong{
+   color:  var(--text-headline);
+}
+h1 {
+    font-size: 3.6rem;
+    margin-block: 8.8rem 4.4rem;
+}
+h2 {
+    font-size: 3.2rem;
+    margin-block: 8.2rem 8.8rem;
+}
+h1, h2, h3 {
+    color: var(--text-primary);
+
+}
+h4 {
+    color: var(--text-secondary);
+    font-size: 1.6rem;
+}
+
+p {
+    color: var(--text-secondary);
+}
+ul{
+    padding-left: 2.4rem;
+    font-weight: 700;
+}
+
+li-marker {
+    color: var(--text-secondary);
+}
