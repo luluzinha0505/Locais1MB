@@ -11,3 +11,13 @@
         p {
             font-size: italic;
             text-align: center;
+        }
+        
+    }
+    .divider {
+        herght: 1px;
+        background: var(--border-primary);
+        margin-block: 4rem;
+
+    }
+}
